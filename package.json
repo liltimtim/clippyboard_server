@@ -1,0 +1,22 @@
+{
+  "name": "app-service-hello-world",
+  "description": "Simple Hello World Node.js sample for Azure App Service",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Microsoft",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "bestzip bundle.zip ."
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "twilio": "^3.30.1"
+  },
+  "devDependencies": {
+    "bestzip": "^2.1.2"
+  }
+}
