@@ -123,6 +123,7 @@ app.get("/apple-app-site-association", async (req, res) => {
     if (err) {
       return res.status(500).json({ error: "cannot read file" });
     }
+    res.setHeader("Content-Type", "application/json");
     return res.send(contents);
   });
 });
