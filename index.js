@@ -66,7 +66,7 @@ const availableClients = client => {
       name: "Chris Dillman",
       email: "liltimtim@gmail.com",
       password: "temp123!",
-      phone: "8032626240",
+      phone: "7062945600",
       prepid: Number("1")
     },
     {
