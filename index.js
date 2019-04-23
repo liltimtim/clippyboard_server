@@ -128,6 +128,16 @@ app.get("/apple-app-site-association", async (req, res) => {
   });
 });
 
+app.get("/android-app-site-association", async (req, res) => {
+  fs.readFile("./assetlinks.json", "utf8", (err, contents) => {
+    if (err) {
+      return res.status(500).json({ error: "cannot read file" });
+    }
+    res.setHeader("Content-Type", "application/json");
+    return res.send(contents);
+  });
+});
+
 app.post("/sendemail", async (req, res) => {
   const { email, from, message, phone } = req.body;
   console.log(req.body);

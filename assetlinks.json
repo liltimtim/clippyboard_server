@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.rhodescomputerservices.taxestogo",
+      "sha256_cert_fingerprints": [
+        "58:0D:2C:1E:FA:86:B0:9C:4B:6A:AF:63:BC:B5:33:34:3F:F0:0E:D8:62:BF:B3:25:40:D3:52:AB:68:F7:5A:9B"
+      ]
+    }
+  }
+]
