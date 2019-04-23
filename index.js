@@ -75,6 +75,13 @@ const availableClients = client => {
       email: "brhea@taxslayer.com",
       password: "password",
       prepid: Number("1")
+    },
+    {
+      id: 4,
+      name: "Chris Paine",
+      email: "cpaine.taxslayer@gmail.com",
+      password: "password",
+      prepid: Number("1")
     }
   ];
 };
